@@ -1,0 +1,592 @@
+;UG;LOC;DA;TI;TF;TM
+0;Brasil;Total;Total;15,4;22,4;28,9
+1;Brasil;Urbana;Total;15,6;23,8;29,6
+2;Brasil;Rural;Total;14,3;16,0;21,0
+3;Brasil;Total;Federal;12,3;26,0;30,5
+4;Brasil;Urbana;Federal;12,6;26,0;30,6
+5;Brasil;Rural;Federal;9,3;0,0;30,4
+6;Brasil;Total;Estadual;15,8;26,1;29,2
+7;Brasil;Urbana;Estadual;18,3;27,4;30,0
+8;Brasil;Rural;Estadual;9,7;14,7;20,3
+9;Brasil;Total;Municipal;17,1;22,4;26,0
+10;Brasil;Urbana;Municipal;17,6;24,6;28,0
+11;Brasil;Rural;Municipal;14,4;16,2;15,8
+12;Brasil;Total;Privada;12,3;19,0;26,9
+13;Brasil;Urbana;Privada;12,3;19,0;27,0
+14;Brasil;Rural;Privada;14,0;17,3;23,6
+15;Brasil;Total;Pública;17,1;23,3;29,3
+16;Brasil;Urbana;Pública;17,6;25,4;30,0
+17;Brasil;Rural;Pública;14,3;16,0;20,9
+18;Norte;Total;Total;17,2;21,4;27,5
+19;Norte;Urbana;Total;18,5;25,0;31,2
+20;Norte;Rural;Total;13,9;15,5;17,2
+21;Norte;Total;Federal;16,0;26,1;31,8
+22;Norte;Urbana;Federal;16,0;26,1;31,9
+23;Norte;Rural;Federal;0,0;0,0;30,7
+24;Norte;Total;Estadual;8,8;24,3;27,3
+25;Norte;Urbana;Estadual;24,8;28,0;31,4
+26;Norte;Rural;Estadual;5,8;13,4;16,9
+27;Norte;Total;Municipal;18,0;20,9;19,0
+28;Norte;Urbana;Municipal;19,9;25,6;25,2
+29;Norte;Rural;Municipal;14,0;15,8;3,5
+30;Norte;Total;Privada;13,0;18,6;28,0
+31;Norte;Urbana;Privada;13,0;18,5;28,5
+32;Norte;Rural;Privada;11,5;20,7;20,2
+33;Norte;Total;Pública;18,0;21,7;27,4
+34;Norte;Urbana;Pública;19,9;26,3;31,4
+35;Norte;Rural;Pública;13,9;15,5;17,1
+36;Nordeste;Total;Total;16,1;21,3;31,5
+37;Nordeste;Urbana;Total;16,5;23,0;32,0
+38;Nordeste;Rural;Total;15,0;17,1;26,7
+39;Nordeste;Total;Federal;17,5;24,5;32,1
+40;Nordeste;Urbana;Federal;17,5;24,5;32,1
+41;Nordeste;Rural;Federal;0,0;0,0;32,0
+42;Nordeste;Total;Estadual;10,2;26,7;32,1
+43;Nordeste;Urbana;Estadual;15,1;29,0;32,6
+44;Nordeste;Rural;Estadual;9,4;15,5;26,8
+45;Nordeste;Total;Municipal;17,3;22,0;20,9
+46;Nordeste;Urbana;Municipal;18,5;25,0;26,7
+47;Nordeste;Rural;Municipal;15,1;17,1;18,6
+48;Nordeste;Total;Privada;13,2;17,9;27,5
+49;Nordeste;Urbana;Privada;13,2;17,9;27,6
+50;Nordeste;Rural;Privada;14,4;15,6;22,2
+51;Nordeste;Total;Pública;17,3;22,4;32,1
+52;Nordeste;Urbana;Pública;18,5;25,4;32,6
+53;Nordeste;Rural;Pública;15,0;17,1;26,9
+54;Sudeste;Total;Total;15,1;23,7;29,3
+55;Sudeste;Urbana;Total;15,2;24,3;29,5
+56;Sudeste;Rural;Total;13,0;15,1;22,6
+57;Sudeste;Total;Federal;13,2;25,3;30,5
+58;Sudeste;Urbana;Federal;13,7;25,3;30,6
+59;Sudeste;Rural;Federal;9,3;0,0;29,9
+60;Sudeste;Total;Estadual;7,4;28,2;30,0
+61;Sudeste;Urbana;Estadual;8,9;28,6;30,3
+62;Sudeste;Rural;Estadual;5,8;16,3;21,5
+63;Sudeste;Total;Municipal;17,5;23,7;28,1
+64;Sudeste;Urbana;Municipal;17,8;24,7;28,3
+65;Sudeste;Rural;Municipal;13,1;14,7;16,5
+66;Sudeste;Total;Privada;11,8;19,4;26,0
+67;Sudeste;Urbana;Privada;11,8;19,4;26,0
+68;Sudeste;Rural;Privada;13,1;19,0;25,2
+69;Sudeste;Total;Pública;17,5;25,2;30,0
+70;Sudeste;Urbana;Pública;17,8;26,1;30,2
+71;Sudeste;Rural;Pública;13,0;14,9;22,4
+72;Sul;Total;Total;13,8;21,7;25,3
+73;Sul;Urbana;Total;13,9;22,7;25,6
+74;Sul;Rural;Total;12,2;13,7;18,6
+75;Sul;Total;Federal;8,2;27,5;27,8
+76;Sul;Urbana;Federal;8,2;27,5;27,5
+77;Sul;Rural;Federal;0,0;0,0;30,1
+78;Sul;Total;Estadual;9,7;23,0;24,6
+79;Sul;Urbana;Estadual;12,9;24,0;25,0
+80;Sul;Rural;Estadual;9,0;13,7;17,6
+81;Sul;Total;Municipal;14,6;21,0;19,3
+82;Sul;Urbana;Municipal;14,8;22,3;26,7
+83;Sul;Rural;Municipal;12,4;13,7;7,8
+84;Sul;Total;Privada;11,8;21,1;28,7
+85;Sul;Urbana;Privada;11,8;21,1;28,8
+86;Sul;Rural;Privada;11,8;16,8;26,8
+87;Sul;Total;Pública;14,6;21,8;24,7
+88;Sul;Urbana;Pública;14,8;23,0;25,1
+89;Sul;Rural;Pública;12,3;13,7;18,4
+90;Centro-Oeste;Total;Total;17,5;23,4;27,9
+91;Centro-Oeste;Urbana;Total;17,7;24,3;28,8
+92;Centro-Oeste;Rural;Total;14,1;15,7;17,9
+93;Centro-Oeste;Total;Federal;5,3;30,3;29,1
+94;Centro-Oeste;Urbana;Federal;5,3;30,3;29,3
+95;Centro-Oeste;Rural;Federal;0,0;0,0;28,2
+96;Centro-Oeste;Total;Estadual;18,8;26,0;27,9
+97;Centro-Oeste;Urbana;Estadual;19,0;27,0;29,0
+98;Centro-Oeste;Rural;Estadual;16,3;17,1;16,4
+99;Centro-Oeste;Total;Municipal;19,2;23,6;20,3
+100;Centro-Oeste;Urbana;Municipal;19,6;25,2;24,0
+101;Centro-Oeste;Rural;Municipal;13,9;15,0;14,1
+102;Centro-Oeste;Total;Privada;13,9;19,0;27,6
+103;Centro-Oeste;Urbana;Privada;13,9;19,0;27,6
+104;Centro-Oeste;Rural;Privada;14,3;21,2;26,7
+105;Centro-Oeste;Total;Pública;19,2;24,6;28,0
+106;Centro-Oeste;Urbana;Pública;19,6;26,0;29,0
+107;Centro-Oeste;Rural;Pública;14,1;15,6;17,6
+108;Rondônia;Total;Total;17,8;22,2;26,5
+109;Rondônia;Urbana;Total;17,9;24,0;27,3
+110;Rondônia;Rural;Total;16,6;15,5;18,4
+111;Rondônia;Total;Federal;0,0;0,0;34,3
+112;Rondônia;Urbana;Federal;0,0;0,0;35,6
+113;Rondônia;Rural;Federal;0,0;0,0;30,9
+114;Rondônia;Total;Estadual;15,0;24,2;26,0
+115;Rondônia;Urbana;Estadual;15,0;26,5;26,9
+116;Rondônia;Rural;Estadual;0,0;10,4;14,0
+117;Rondônia;Total;Municipal;18,8;21,2;0,0
+118;Rondônia;Urbana;Municipal;19,1;23,0;0,0
+119;Rondônia;Rural;Municipal;16,6;16,9;0,0
+120;Rondônia;Total;Privada;13,7;20,5;27,8
+121;Rondônia;Urbana;Privada;13,7;20,1;28,0
+122;Rondônia;Rural;Privada;0,0;28,3;27,0
+123;Rondônia;Total;Pública;18,8;22,5;26,4
+124;Rondônia;Urbana;Pública;19,0;24,6;27,3
+125;Rondônia;Rural;Pública;16,6;15,2;17,0
+126;Acre;Total;Total;16,8;20,2;22,4
+127;Acre;Urbana;Total;20,6;25,7;32,5
+128;Acre;Rural;Total;9,9;13,9;11,7
+129;Acre;Total;Federal;23,0;25,0;34,9
+130;Acre;Urbana;Federal;23,0;25,0;35,2
+131;Acre;Rural;Federal;0,0;0,0;34,1
+132;Acre;Total;Estadual;5,8;21,2;21,7
+133;Acre;Urbana;Estadual;0,0;27,6;32,7
+134;Acre;Rural;Estadual;5,8;13,5;11,3
+135;Acre;Total;Municipal;17,2;18,7;0,0
+136;Acre;Urbana;Municipal;21,2;23,9;0,0
+137;Acre;Rural;Municipal;10,3;14,5;0,0
+138;Acre;Total;Privada;14,2;20,8;29,2
+139;Acre;Urbana;Privada;14,2;20,8;29,2
+140;Acre;Total;Pública;16,9;20,2;22,1
+141;Acre;Urbana;Pública;21,2;26,2;32,9
+142;Acre;Rural;Pública;9,9;13,9;11,7
+143;Amazonas;Total;Total;17,1;21,8;26,6
+144;Amazonas;Urbana;Total;18,2;26,6;32,6
+145;Amazonas;Rural;Total;14,1;14,2;14,1
+146;Amazonas;Total;Federal;0,0;29,5;31,9
+147;Amazonas;Urbana;Federal;0,0;29,5;31,8
+148;Amazonas;Rural;Federal;0,0;0,0;32,3
+149;Amazonas;Total;Estadual;0,0;28,3;26,4
+150;Amazonas;Urbana;Estadual;0,0;30,4;33,2
+151;Amazonas;Rural;Estadual;0,0;13,5;13,9
+152;Amazonas;Total;Municipal;18,4;20,3;0,0
+153;Amazonas;Urbana;Municipal;20,3;27,0;0,0
+154;Amazonas;Rural;Municipal;14,1;14,2;0,0
+155;Amazonas;Total;Privada;11,7;17,6;25,9
+156;Amazonas;Urbana;Privada;11,7;17,6;25,9
+157;Amazonas;Rural;Privada;4,7;20,6;35,7
+158;Amazonas;Total;Pública;18,4;22,2;26,6
+159;Amazonas;Urbana;Pública;20,3;28,2;33,2
+160;Amazonas;Rural;Pública;14,1;14,2;14,1
+161;Roraima;Total;Total;18,7;20,9;22,7
+162;Roraima;Urbana;Total;20,3;24,9;27,7
+163;Roraima;Rural;Total;14,5;14,5;13,7
+164;Roraima;Total;Federal;0,0;24,3;28,5
+165;Roraima;Urbana;Federal;0,0;24,3;30,0
+166;Roraima;Rural;Federal;0,0;0,0;26,7
+167;Roraima;Total;Estadual;0,0;20,6;22,4
+168;Roraima;Urbana;Estadual;0,0;27,4;27,9
+169;Roraima;Rural;Estadual;0,0;14,7;13,2
+170;Roraima;Total;Municipal;19,4;21,4;0,0
+171;Roraima;Urbana;Municipal;21,9;24,3;0,0
+172;Roraima;Rural;Municipal;14,5;14,0;0,0
+173;Roraima;Total;Privada;14,8;20,0;24,0
+174;Roraima;Urbana;Privada;14,8;20,0;25,3
+175;Roraima;Rural;Privada;0,0;0,0;5,5
+176;Roraima;Total;Pública;19,4;21,0;22,6
+177;Roraima;Urbana;Pública;21,9;25,4;27,9
+178;Roraima;Rural;Pública;14,5;14,5;13,8
+179;Pará;Total;Total;17,0;21,4;30,1
+180;Pará;Urbana;Total;18,3;24,8;32,9
+181;Pará;Rural;Total;14,3;16,8;22,0
+182;Pará;Total;Federal;14,6;25,4;31,0
+183;Pará;Urbana;Federal;14,6;25,4;31,0
+184;Pará;Rural;Federal;0,0;0,0;31,2
+185;Pará;Total;Estadual;13,0;25,4;30,2
+186;Pará;Urbana;Estadual;26,9;27,0;33,4
+187;Pará;Rural;Estadual;4,0;15,2;22,1
+188;Pará;Total;Municipal;17,5;21,3;19,0
+189;Pará;Urbana;Municipal;19,6;26,2;25,2
+190;Pará;Rural;Municipal;14,4;16,9;3,5
+191;Pará;Total;Privada;13,6;18,5;29,2
+192;Pará;Urbana;Privada;13,7;18,5;29,8
+193;Pará;Rural;Privada;12,5;15,0;17,0
+194;Pará;Total;Pública;17,5;21,7;30,2
+195;Pará;Urbana;Pública;19,6;26,3;33,3
+196;Pará;Rural;Pública;14,3;16,8;22,1
+197;Amapá;Total;Total;16,1;20,5;27,2
+198;Amapá;Urbana;Total;17,1;24,2;30,1
+199;Amapá;Rural;Total;12,9;12,8;16,5
+200;Amapá;Total;Federal;0,0;0,0;33,4
+201;Amapá;Urbana;Federal;0,0;0,0;33,4
+202;Amapá;Total;Estadual;7,9;21,5;27,2
+203;Amapá;Urbana;Estadual;0,0;27,6;30,2
+204;Amapá;Rural;Estadual;7,9;12,5;16,8
+205;Amapá;Total;Municipal;17,6;20,1;0,0
+206;Amapá;Urbana;Municipal;19,1;23,2;0,0
+207;Amapá;Rural;Municipal;13,3;13,3;0,0
+208;Amapá;Total;Privada;10,5;17,1;25,4
+209;Amapá;Urbana;Privada;10,5;17,4;27,6
+210;Amapá;Rural;Privada;0,0;5,6;12,8
+211;Amapá;Total;Pública;17,4;20,9;27,4
+212;Amapá;Urbana;Pública;19,1;25,4;30,4
+213;Amapá;Rural;Pública;12,9;12,8;16,8
+214;Tocantins;Total;Total;18,3;21,6;25,1
+215;Tocantins;Urbana;Total;19,1;23,9;26,8
+216;Tocantins;Rural;Total;12,1;12,5;14,8
+217;Tocantins;Total;Federal;0,0;0,0;29,4
+218;Tocantins;Urbana;Federal;0,0;0,0;29,1
+219;Tocantins;Rural;Federal;0,0;0,0;30,1
+220;Tocantins;Total;Estadual;0,0;23,5;24,6
+221;Tocantins;Urbana;Estadual;0,0;26,6;26,6
+222;Tocantins;Rural;Estadual;0,0;12,7;13,5
+223;Tocantins;Total;Municipal;19,1;21,1;0,0
+224;Tocantins;Urbana;Municipal;20,2;23,7;0,0
+225;Tocantins;Rural;Municipal;12,0;12,1;0,0
+226;Tocantins;Total;Privada;13,6;19,2;28,8
+227;Tocantins;Urbana;Privada;13,6;19,1;28,7
+228;Tocantins;Rural;Privada;14,0;23,0;30,4
+229;Tocantins;Total;Pública;19,1;21,9;24,8
+230;Tocantins;Urbana;Pública;20,2;24,7;26,7
+231;Tocantins;Rural;Pública;12,0;12,3;14,6
+232;Maranhão;Total;Total;15,6;20,1;32,4
+233;Maranhão;Urbana;Total;16,6;23,4;34,0
+234;Maranhão;Rural;Total;14,1;16,2;25,9
+235;Maranhão;Total;Federal;0,0;19,4;36,3
+236;Maranhão;Urbana;Federal;0,0;19,4;36,3
+237;Maranhão;Rural;Federal;0,0;0,0;36,4
+238;Maranhão;Total;Estadual;15,8;21,9;33,2
+239;Maranhão;Urbana;Estadual;15,8;33,8;34,8
+240;Maranhão;Rural;Estadual;0,0;16,1;26,5
+241;Maranhão;Total;Municipal;16,2;20,5;20,3
+242;Maranhão;Urbana;Municipal;18,0;25,0;29,1
+243;Maranhão;Rural;Municipal;13,9;16,2;17,5
+244;Maranhão;Total;Privada;14,0;17,9;24,8
+245;Maranhão;Urbana;Privada;13,7;18,0;25,6
+246;Maranhão;Rural;Privada;15,2;16,6;18,8
+247;Maranhão;Total;Pública;16,2;20,5;33,1
+248;Maranhão;Urbana;Pública;18,0;25,1;34,8
+249;Maranhão;Rural;Pública;13,9;16,2;26,3
+250;Piauí;Total;Total;16,3;20,7;28,2
+251;Piauí;Urbana;Total;17,2;23,4;28,6
+252;Piauí;Rural;Total;14,1;15,1;24,0
+253;Piauí;Total;Federal;0,0;0,0;36,2
+254;Piauí;Urbana;Federal;0,0;0,0;36,2
+255;Piauí;Rural;Federal;0,0;0,0;36,9
+256;Piauí;Total;Estadual;0,0;26,2;27,7
+257;Piauí;Urbana;Estadual;0,0;26,4;28,1
+258;Piauí;Rural;Estadual;0,0;13,4;22,9
+259;Piauí;Total;Municipal;16,7;20,6;0,0
+260;Piauí;Urbana;Municipal;18,0;24,4;0,0
+261;Piauí;Rural;Municipal;14,1;15,1;0,0
+262;Piauí;Total;Privada;14,4;19,7;28,4
+263;Piauí;Urbana;Privada;14,4;19,7;28,5
+264;Piauí;Rural;Privada;0,0;24,5;22,7
+265;Piauí;Total;Pública;16,7;20,9;28,2
+266;Piauí;Urbana;Pública;18,0;24,5;28,6
+267;Piauí;Rural;Pública;14,1;15,1;24,0
+268;Ceará;Total;Total;16,4;22,1;35,6
+269;Ceará;Urbana;Total;16,5;23,5;35,8
+270;Ceará;Rural;Total;15,9;17,8;32,0
+271;Ceará;Total;Federal;14,0;28,9;29,8
+272;Ceará;Urbana;Federal;14,0;28,9;30,6
+273;Ceará;Rural;Federal;0,0;0,0;23,0
+274;Ceará;Total;Estadual;10,4;17,7;36,7
+275;Ceará;Urbana;Estadual;11,5;22,9;37,0
+276;Ceará;Rural;Estadual;9,8;11,7;32,4
+277;Ceará;Total;Municipal;17,8;23,6;0,0
+278;Ceará;Urbana;Municipal;18,6;26,2;0,0
+279;Ceará;Rural;Municipal;16,1;18,0;0,0
+280;Ceará;Total;Privada;13,2;18,1;28,0
+281;Ceará;Urbana;Privada;13,2;18,1;28,0
+282;Ceará;Rural;Privada;11,9;8,2;11,3
+283;Ceará;Total;Pública;17,7;23,5;36,5
+284;Ceará;Urbana;Pública;18,6;26,1;36,9
+285;Ceará;Rural;Pública;16,0;17,9;32,1
+286;Rio Grande do Norte;Total;Total;15,7;21,1;32,2
+287;Rio Grande do Norte;Urbana;Total;15,8;22,0;32,2
+288;Rio Grande do Norte;Rural;Total;15,3;17,3;30,7
+289;Rio Grande do Norte;Total;Federal;20,0;21,6;37,1
+290;Rio Grande do Norte;Urbana;Federal;20,0;21,6;37,2
+291;Rio Grande do Norte;Rural;Federal;0,0;0,0;36,1
+292;Rio Grande do Norte;Total;Estadual;0,0;24,9;32,3
+293;Rio Grande do Norte;Urbana;Estadual;0,0;25,5;32,5
+294;Rio Grande do Norte;Rural;Estadual;0,0;18,1;29,7
+295;Rio Grande do Norte;Total;Municipal;17,9;21,9;0,0
+296;Rio Grande do Norte;Urbana;Municipal;18,8;24,0;0,0
+297;Rio Grande do Norte;Rural;Municipal;15,4;17,4;0,0
+298;Rio Grande do Norte;Total;Privada;11,3;17,5;28,2
+299;Rio Grande do Norte;Urbana;Privada;11,3;17,6;28,3
+300;Rio Grande do Norte;Rural;Privada;11,1;10,5;12,0
+301;Rio Grande do Norte;Total;Pública;17,9;22,5;32,8
+302;Rio Grande do Norte;Urbana;Pública;18,8;24,4;32,9
+303;Rio Grande do Norte;Rural;Pública;15,4;17,4;31,0
+304;Paraíba;Total;Total;16,8;20,8;27,7
+305;Paraíba;Urbana;Total;17,4;22,1;27,9
+306;Paraíba;Rural;Total;14,4;15,5;23,8
+307;Paraíba;Total;Federal;16,8;17,0;35,6
+308;Paraíba;Urbana;Federal;16,8;17,0;35,8
+309;Paraíba;Rural;Federal;0,0;0,0;28,7
+310;Paraíba;Total;Estadual;13,1;23,3;27,2
+311;Paraíba;Urbana;Estadual;17,0;24,4;27,5
+312;Paraíba;Rural;Estadual;12,3;16,7;23,7
+313;Paraíba;Total;Municipal;18,4;21,7;21,0
+314;Paraíba;Urbana;Municipal;20,0;24,3;22,0
+315;Paraíba;Rural;Municipal;14,5;15,4;19,0
+316;Paraíba;Total;Privada;13,4;17,7;28,2
+317;Paraíba;Urbana;Privada;13,4;17,7;28,2
+318;Paraíba;Rural;Privada;12,1;13,7;0,0
+319;Paraíba;Total;Pública;18,4;21,9;27,6
+320;Paraíba;Urbana;Pública;20,0;24,3;27,9
+321;Paraíba;Rural;Pública;14,4;15,5;23,8
+322;Pernambuco;Total;Total;15,9;22,7;33,3
+323;Pernambuco;Urbana;Total;16,0;23,6;33,9
+324;Pernambuco;Rural;Total;15,3;19,1;26,7
+325;Pernambuco;Total;Federal;0,0;28,2;26,1
+326;Pernambuco;Urbana;Federal;0,0;28,2;25,6
+327;Pernambuco;Rural;Federal;0,0;0,0;27,6
+328;Pernambuco;Total;Estadual;11,5;30,0;34,3
+329;Pernambuco;Urbana;Estadual;21,3;34,5;35,0
+330;Pernambuco;Rural;Estadual;10,8;16,9;26,7
+331;Pernambuco;Total;Municipal;17,5;23,8;21,1
+332;Pernambuco;Urbana;Municipal;18,2;25,7;0,0
+333;Pernambuco;Rural;Municipal;15,6;19,4;21,1
+334;Pernambuco;Total;Privada;13,6;18,5;28,9
+335;Pernambuco;Urbana;Privada;13,6;18,5;29,0
+336;Pernambuco;Rural;Privada;14,9;16,7;18,8
+337;Pernambuco;Total;Pública;17,4;24,5;33,9
+338;Pernambuco;Urbana;Pública;18,2;26,7;34,7
+339;Pernambuco;Rural;Pública;15,3;19,1;26,8
+340;Alagoas;Total;Total;16,9;23,2;35,4
+341;Alagoas;Urbana;Total;17,0;24,4;35,6
+342;Alagoas;Rural;Total;16,6;19,8;33,1
+343;Alagoas;Total;Federal;0,0;0,0;29,5
+344;Alagoas;Urbana;Federal;0,0;0,0;29,5
+345;Alagoas;Total;Estadual;13,8;29,6;37,9
+346;Alagoas;Urbana;Estadual;17,8;31,3;38,2
+347;Alagoas;Rural;Estadual;12,1;14,5;33,5
+348;Alagoas;Total;Municipal;18,4;24,5;0,0
+349;Alagoas;Urbana;Municipal;19,3;27,1;0,0
+350;Alagoas;Rural;Municipal;16,7;20,0;0,0
+351;Alagoas;Total;Privada;12,0;17,5;26,8
+352;Alagoas;Urbana;Privada;12,1;17,6;26,9
+353;Alagoas;Rural;Privada;7,7;13,3;11,7
+354;Alagoas;Total;Pública;18,3;25,0;37,1
+355;Alagoas;Urbana;Pública;19,3;27,7;37,4
+356;Alagoas;Rural;Pública;16,7;19,8;33,5
+357;Sergipe;Total;Total;16,3;21,3;31,6
+358;Sergipe;Urbana;Total;16,5;22,4;31,9
+359;Sergipe;Rural;Total;15,9;17,9;26,7
+360;Sergipe;Total;Federal;0,0;29,5;27,9
+361;Sergipe;Urbana;Federal;0,0;29,5;28,5
+362;Sergipe;Rural;Federal;0,0;0,0;26,9
+363;Sergipe;Total;Estadual;0,0;26,0;32,8
+364;Sergipe;Urbana;Estadual;0,0;26,4;33,2
+365;Sergipe;Rural;Estadual;0,0;18,0;26,7
+366;Sergipe;Total;Municipal;17,8;21,6;0,0
+367;Sergipe;Urbana;Municipal;18,8;24,3;0,0
+368;Sergipe;Rural;Municipal;16,0;18,0;0,0
+369;Sergipe;Total;Privada;13,5;18,1;26,5
+370;Sergipe;Urbana;Privada;13,5;18,1;26,5
+371;Sergipe;Rural;Privada;12,9;15,2;0,0
+372;Sergipe;Total;Pública;17,8;22,6;32,6
+373;Sergipe;Urbana;Pública;18,8;24,9;33,1
+374;Sergipe;Rural;Pública;16,0;18,0;26,7
+375;Bahia;Total;Total;15,9;20,6;28,7
+376;Bahia;Urbana;Total;16,2;22,3;29,0
+377;Bahia;Rural;Total;14,8;16,8;24,8
+378;Bahia;Total;Federal;0,0;26,2;29,3
+379;Bahia;Urbana;Federal;0,0;26,2;28,7
+380;Bahia;Rural;Federal;0,0;0,0;34,1
+381;Bahia;Total;Estadual;6,1;28,5;28,9
+382;Bahia;Urbana;Estadual;0,0;31,3;29,3
+383;Bahia;Rural;Estadual;6,1;11,3;24,5
+384;Bahia;Total;Municipal;17,1;21,3;22,3
+385;Bahia;Urbana;Municipal;18,3;24,2;23,9
+386;Bahia;Rural;Municipal;15,0;16,9;21,4
+387;Bahia;Total;Privada;13,1;17,2;26,9
+388;Bahia;Urbana;Privada;13,1;17,2;27,1
+389;Bahia;Rural;Privada;12,1;16,8;25,2
+390;Bahia;Total;Pública;17,0;21,6;28,9
+391;Bahia;Urbana;Pública;18,3;24,6;29,3
+392;Bahia;Rural;Pública;14,9;16,8;24,8
+393;Minas Gerais;Total;Total;15,4;21,5;27,7
+394;Minas Gerais;Urbana;Total;15,7;22,8;28,0
+395;Minas Gerais;Rural;Total;11,5;11,7;20,3
+396;Minas Gerais;Total;Federal;13,0;22,6;30,5
+397;Minas Gerais;Urbana;Federal;13,0;22,6;30,9
+398;Minas Gerais;Rural;Federal;0,0;0,0;29,1
+399;Minas Gerais;Total;Estadual;7,1;24,7;27,9
+400;Minas Gerais;Urbana;Estadual;3,7;25,5;28,2
+401;Minas Gerais;Rural;Estadual;7,2;12,5;17,4
+402;Minas Gerais;Total;Municipal;16,1;20,1;28,3
+403;Minas Gerais;Urbana;Municipal;16,6;21,9;29,3
+404;Minas Gerais;Rural;Municipal;11,6;11,5;11,5
+405;Minas Gerais;Total;Privada;13,6;19,7;25,9
+406;Minas Gerais;Urbana;Privada;13,6;19,8;25,9
+407;Minas Gerais;Rural;Privada;15,2;13,3;23,9
+408;Minas Gerais;Total;Pública;16,1;21,9;28,0
+409;Minas Gerais;Urbana;Pública;16,6;23,4;28,3
+410;Minas Gerais;Rural;Pública;11,5;11,7;20,0
+411;Espírito Santo;Total;Total;15,8;23,0;30,1
+412;Espírito Santo;Urbana;Total;16,0;24,0;30,2
+413;Espírito Santo;Rural;Total;13,5;16,2;28,3
+414;Espírito Santo;Total;Federal;15,6;0,0;31,8
+415;Espírito Santo;Urbana;Federal;15,6;0,0;31,3
+416;Espírito Santo;Rural;Federal;0,0;0,0;33,3
+417;Espírito Santo;Total;Estadual;0,0;26,7;30,1
+418;Espírito Santo;Urbana;Estadual;0,0;27,7;30,3
+419;Espírito Santo;Rural;Estadual;0,0;18,2;25,5
+420;Espírito Santo;Total;Municipal;16,4;22,6;0,0
+421;Espírito Santo;Urbana;Municipal;16,7;23,8;0,0
+422;Espírito Santo;Rural;Municipal;13,5;15,8;0,0
+423;Espírito Santo;Total;Privada;12,0;21,6;29,3
+424;Espírito Santo;Urbana;Privada;12,0;21,6;29,4
+425;Espírito Santo;Rural;Privada;6,9;24,6;27,9
+426;Espírito Santo;Total;Pública;16,4;23,2;30,3
+427;Espírito Santo;Urbana;Pública;16,7;24,5;30,3
+428;Espírito Santo;Rural;Pública;13,5;16,1;28,5
+429;Rio de Janeiro;Total;Total;15,3;23,2;27,5
+430;Rio de Janeiro;Urbana;Total;15,5;23,5;27,7
+431;Rio de Janeiro;Rural;Total;13,7;18,4;22,4
+432;Rio de Janeiro;Total;Federal;12,6;26,0;26,4
+433;Rio de Janeiro;Urbana;Federal;12,6;26,0;26,4
+434;Rio de Janeiro;Rural;Federal;0,0;0,0;28,1
+435;Rio de Janeiro;Total;Estadual;12,9;28,9;28,4
+436;Rio de Janeiro;Urbana;Estadual;12,9;29,2;28,7
+437;Rio de Janeiro;Rural;Estadual;0,0;22,7;22,3
+438;Rio de Janeiro;Total;Municipal;17,9;25,7;23,1
+439;Rio de Janeiro;Urbana;Municipal;18,4;26,6;23,1
+440;Rio de Janeiro;Rural;Municipal;13,8;18,3;0,0
+441;Rio de Janeiro;Total;Privada;12,4;18,4;25,0
+442;Rio de Janeiro;Urbana;Privada;12,4;18,4;25,0
+443;Rio de Janeiro;Rural;Privada;11,5;16,3;20,0
+444;Rio de Janeiro;Total;Pública;17,9;26,1;28,2
+445;Rio de Janeiro;Urbana;Pública;18,3;26,8;28,5
+446;Rio de Janeiro;Rural;Pública;13,8;18,5;22,5
+447;São Paulo;Total;Total;14,9;25,1;30,5
+448;São Paulo;Urbana;Total;14,9;25,3;30,6
+449;São Paulo;Rural;Total;14,6;19,2;23,6
+450;São Paulo;Total;Federal;13,7;26,5;38,8
+451;São Paulo;Urbana;Federal;16,0;26,5;38,8
+452;São Paulo;Rural;Federal;9,3;0,0;0,0
+453;São Paulo;Total;Estadual;6,7;30,1;31,5
+454;São Paulo;Urbana;Estadual;8,1;30,3;31,7
+455;São Paulo;Rural;Estadual;3,5;20,5;23,4
+456;São Paulo;Total;Municipal;18,3;25,2;28,7
+457;São Paulo;Urbana;Municipal;18,4;25,4;28,7
+458;São Paulo;Rural;Municipal;15,0;18,2;26,4
+459;São Paulo;Total;Privada;11,2;19,8;26,3
+460;São Paulo;Urbana;Privada;11,2;19,8;26,3
+461;São Paulo;Rural;Privada;14,3;22,9;27,8
+462;São Paulo;Total;Pública;18,3;27,1;31,5
+463;São Paulo;Urbana;Pública;18,4;27,4;31,7
+464;São Paulo;Rural;Pública;14,7;18,9;23,4
+465;Paraná;Total;Total;15,2;23,1;27,6
+466;Paraná;Urbana;Total;15,2;23,8;28,2
+467;Paraná;Rural;Total;13,4;15,1;18,1
+468;Paraná;Total;Federal;0,0;29,3;28,4
+469;Paraná;Urbana;Federal;0,0;29,3;28,4
+470;Paraná;Rural;Federal;0,0;0,0;28,3
+471;Paraná;Total;Estadual;9,1;26,6;27,1
+472;Paraná;Urbana;Estadual;11,1;27,8;27,8
+473;Paraná;Rural;Estadual;8,8;15,5;18,0
+474;Paraná;Total;Municipal;16,3;22,0;0,0
+475;Paraná;Urbana;Municipal;16,5;22,8;0,0
+476;Paraná;Rural;Municipal;13,7;14,8;0,0
+477;Paraná;Total;Privada;12,0;19,6;30,8
+478;Paraná;Urbana;Privada;12,0;19,6;31,0
+479;Paraná;Rural;Privada;10,3;17,9;18,6
+480;Paraná;Total;Pública;16,3;23,8;27,1
+481;Paraná;Urbana;Pública;16,5;24,8;27,8
+482;Paraná;Rural;Pública;13,5;15,1;18,1
+483;Santa Catarina;Total;Total;13,2;22,8;26,3
+484;Santa Catarina;Urbana;Total;13,2;23,7;26,6
+485;Santa Catarina;Rural;Total;12,9;15,5;19,1
+486;Santa Catarina;Total;Federal;10,3;24,0;28,1
+487;Santa Catarina;Urbana;Federal;10,3;24,0;28,0
+488;Santa Catarina;Rural;Federal;0,0;0,0;29,1
+489;Santa Catarina;Total;Estadual;18,3;23,6;25,8
+490;Santa Catarina;Urbana;Estadual;18,3;24,7;26,1
+491;Santa Catarina;Rural;Estadual;0,0;14,7;17,5
+492;Santa Catarina;Total;Municipal;13,6;22,8;14,5
+493;Santa Catarina;Urbana;Municipal;13,6;24,0;37,3
+494;Santa Catarina;Rural;Municipal;12,9;15,7;6,5
+495;Santa Catarina;Total;Privada;11,8;21,1;29,7
+496;Santa Catarina;Urbana;Privada;11,8;21,1;29,5
+497;Santa Catarina;Rural;Privada;12,9;22,6;44,0
+498;Santa Catarina;Total;Pública;13,6;23,1;25,8
+499;Santa Catarina;Urbana;Pública;13,6;24,2;26,2
+500;Santa Catarina;Rural;Pública;12,9;15,4;18,1
+501;Rio Grande do Sul;Total;Total;13,0;19,6;22,1
+502;Rio Grande do Sul;Urbana;Total;13,1;20,8;22,3
+503;Rio Grande do Sul;Rural;Total;10,9;12,1;19,0
+504;Rio Grande do Sul;Total;Federal;6,1;29,1;27,4
+505;Rio Grande do Sul;Urbana;Federal;6,1;29,1;26,6
+506;Rio Grande do Sul;Rural;Federal;0,0;0,0;30,6
+507;Rio Grande do Sul;Total;Estadual;9,8;19,1;21,3
+508;Rio Grande do Sul;Urbana;Estadual;12,3;20,1;21,6
+509;Rio Grande do Sul;Rural;Estadual;9,1;11,8;17,0
+510;Rio Grande do Sul;Total;Municipal;13,7;19,0;20,2
+511;Rio Grande do Sul;Urbana;Municipal;14,0;20,7;25,9
+512;Rio Grande do Sul;Rural;Municipal;11,0;12,2;8,3
+513;Rio Grande do Sul;Total;Privada;11,7;22,9;25,8
+514;Rio Grande do Sul;Urbana;Privada;11,7;23,0;25,8
+515;Rio Grande do Sul;Rural;Privada;10,3;9,2;23,9
+516;Rio Grande do Sul;Total;Pública;13,7;19,1;21,6
+517;Rio Grande do Sul;Urbana;Pública;14,0;20,5;21,8
+518;Rio Grande do Sul;Rural;Pública;10,9;12,1;18,8
+519;Mato Grosso do Sul;Total;Total;17,2;24,3;28,6
+520;Mato Grosso do Sul;Urbana;Total;17,3;25,3;29,2
+521;Mato Grosso do Sul;Rural;Total;15,3;18,2;22,3
+522;Mato Grosso do Sul;Total;Federal;0,0;31,3;32,3
+523;Mato Grosso do Sul;Urbana;Federal;0,0;31,3;31,8
+524;Mato Grosso do Sul;Rural;Federal;0,0;0,0;34,9
+525;Mato Grosso do Sul;Total;Estadual;22,1;28,9;28,6
+526;Mato Grosso do Sul;Urbana;Estadual;22,1;30,1;29,5
+527;Mato Grosso do Sul;Rural;Estadual;0,0;18,8;20,7
+528;Mato Grosso do Sul;Total;Municipal;18,9;24,7;26,0
+529;Mato Grosso do Sul;Urbana;Municipal;19,1;26,2;0,0
+530;Mato Grosso do Sul;Rural;Municipal;15,3;18,0;26,0
+531;Mato Grosso do Sul;Total;Privada;12,0;18,0;26,9
+532;Mato Grosso do Sul;Urbana;Privada;12,0;17,9;26,8
+533;Mato Grosso do Sul;Rural;Privada;15,2;26,4;31,8
+534;Mato Grosso do Sul;Total;Pública;18,9;25,7;28,8
+535;Mato Grosso do Sul;Urbana;Pública;19,1;27,1;29,6
+536;Mato Grosso do Sul;Rural;Pública;15,3;18,1;22,0
+537;Mato Grosso;Total;Total;18,7;22,5;25,6
+538;Mato Grosso;Urbana;Total;19,1;24,2;27,4
+539;Mato Grosso;Rural;Total;14,3;15,1;16,3
+540;Mato Grosso;Total;Federal;0,0;0,0;29,1
+541;Mato Grosso;Urbana;Federal;0,0;0,0;29,5
+542;Mato Grosso;Rural;Federal;0,0;0,0;27,8
+543;Mato Grosso;Total;Estadual;0,0;25,1;25,5
+544;Mato Grosso;Urbana;Estadual;0,0;27,4;27,7
+545;Mato Grosso;Rural;Estadual;0,0;15,4;15,3
+546;Mato Grosso;Total;Municipal;19,8;22,2;0,0
+547;Mato Grosso;Urbana;Municipal;20,4;24,2;0,0
+548;Mato Grosso;Rural;Municipal;14,4;15,0;0,0
+549;Mato Grosso;Total;Privada;13,1;18,4;24,4
+550;Mato Grosso;Urbana;Privada;13,1;18,5;24,5
+551;Mato Grosso;Rural;Privada;9,6;12,9;7,3
+552;Mato Grosso;Total;Pública;19,8;23,3;25,7
+553;Mato Grosso;Urbana;Pública;20,4;25,4;27,8
+554;Mato Grosso;Rural;Pública;14,4;15,1;16,3
+555;Goiás;Total;Total;17,3;24,1;28,7
+556;Goiás;Urbana;Total;17,5;24,9;29,3
+557;Goiás;Rural;Total;12,2;12,8;15,9
+558;Goiás;Total;Federal;5,3;26,4;26,3
+559;Goiás;Urbana;Federal;5,3;26,4;26,7
+560;Goiás;Rural;Federal;0,0;0,0;25,1
+561;Goiás;Total;Estadual;8,0;30,6;29,1
+562;Goiás;Urbana;Estadual;8,0;31,3;29,7
+563;Goiás;Rural;Estadual;0,0;15,1;13,6
+564;Goiás;Total;Municipal;19,0;24,0;19,5
+565;Goiás;Urbana;Municipal;19,3;25,3;24,0
+566;Goiás;Rural;Municipal;12,2;12,3;7,6
+567;Goiás;Total;Privada;13,7;18,8;27,4
+568;Goiás;Urbana;Privada;13,7;18,8;27,5
+569;Goiás;Rural;Privada;14,3;19,0;22,4
+570;Goiás;Total;Pública;19,0;25,8;28,9
+571;Goiás;Urbana;Pública;19,3;27,1;29,6
+572;Goiás;Rural;Pública;12,2;12,7;15,5
+573;Distrito Federal;Total;Total;16,6;22,2;28,9
+574;Distrito Federal;Urbana;Total;16,6;22,3;29,1
+575;Distrito Federal;Rural;Total;16,2;20,0;23,5
+576;Distrito Federal;Total;Federal;0,0;31,5;30,2
+577;Distrito Federal;Urbana;Federal;0,0;31,5;30,2
+578;Distrito Federal;Rural;Federal;0,0;0,0;30,3
+579;Distrito Federal;Total;Estadual;18,8;22,9;28,5
+580;Distrito Federal;Urbana;Estadual;19,0;23,1;28,8
+581;Distrito Federal;Rural;Estadual;16,3;19,9;20,7
+582;Distrito Federal;Total;Privada;15,3;20,6;30,3
+583;Distrito Federal;Urbana;Privada;15,3;20,6;30,2
+584;Distrito Federal;Rural;Privada;15,3;24,8;38,6
+585;Distrito Federal;Total;Pública;18,8;22,9;28,5
+586;Distrito Federal;Urbana;Pública;19,0;23,1;28,8
+587;Distrito Federal;Rural;Pública;16,3;19,9;22,3
+588;;;;;;
+589;;;;;;
+590;;;;;;
